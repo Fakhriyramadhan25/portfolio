@@ -16,7 +16,7 @@ export default function Writing() {
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
           <Project
-            image="googleAPI.jpg"
+            image="googleapi.jpg"
             description="Selecting Nearby Restaurants using Google Maps API"
             techStack="Python, geopandas, Google Maps API"
             buttons={[

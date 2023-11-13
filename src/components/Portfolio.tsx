@@ -18,7 +18,7 @@ export default function Portfolio() {
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
           <Project
-            image="PowerLocation.png"
+            image="powerlocation.png"
             description="The latest portfolio comprises of WebDev, GIS & data analysis, and Community Development"
             techStack="WebDev, ArcGIS, Python, React"
             buttons={[

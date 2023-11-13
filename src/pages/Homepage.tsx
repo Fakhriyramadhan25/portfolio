@@ -17,7 +17,7 @@ export default function Homepage({
   setTheme: Function;
 }) {
   useEffect(() => {
-    setFaviconTitle("/Spade.png", "Fakhriy Ramadhan");
+    setFaviconTitle("./spade.png", "Fakhriy Ramadhan");
 
     if (
       localStorage.getItem("nd-theme") === "dark" ||
@@ -43,7 +43,7 @@ export default function Homepage({
           marginRight:
             "mr-[1rem] 2sm:mr-[4rem] sm:mr-[6rem] md:mr-[4rem] lg:mr-[8rem] xl:mr-[14rem] 2xl:mr-[20rem]",
         }}
-        logoPath="./Spade.png"
+        logoPath="./spade.png"
         logoTitle=""
         menu={["Home","About", "Portfolio", "Skills"]}
       />
