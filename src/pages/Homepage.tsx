@@ -43,7 +43,7 @@ export default function Homepage({
           marginRight:
             "mr-[1rem] 2sm:mr-[4rem] sm:mr-[6rem] md:mr-[4rem] lg:mr-[8rem] xl:mr-[14rem] 2xl:mr-[20rem]",
         }}
-        logoPath="/Spade.png"
+        logoPath="./Spade.png"
         logoTitle=""
         menu={["Home","About", "Portfolio", "Skills"]}
       />
