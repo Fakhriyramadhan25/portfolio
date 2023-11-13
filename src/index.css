@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root[theme="dark"] {
+    --color-primary: 189deg 40% 20%;
+    --color-secondary: 0deg 0% 9%;
+    --color-highlight: 116deg 60% 40%;
+    --color-text: 0deg 0% 100%;
+  }
+
+  :root[theme="light"] {
+    --color-primary: 0deg 0% 100%;
+    --color-secondary: 0deg 0% 95%;
+    --color-highlight: 116deg 60% 40%;
+    --color-text: 189deg 40% 25%;
+  }
+
+  body {
+    @apply font-[Poppins];
+  }
+}
