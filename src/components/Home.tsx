@@ -24,6 +24,7 @@ export default function Home({
   internalLink: {
     to: string;
     text: string;
+    image: any;
   } | null;
   externalLinks: Array<{ link: string; image: any; text: string }>;
 }) {
@@ -82,15 +83,28 @@ export default function Home({
           } mt-8 grid place-items-center gap-y-4 2sm:flex 2sm:gap-6 lg:gap-8`}
         >
           {internalLink && internalLink.to && (
+            
             <Link
               to={internalLink.to}
               offset={-60}
-              className="col-span-2 my-2 cursor-pointer items-center rounded-xl border-2 border-highlight p-[10px] text-sm font-semibold text-text duration-300 hover:border-highlight hover:bg-highlight sm:p-[14px] lg:text-base"
+              className="col-span-2 flex my-1 cursor-pointer rounded-full items-center border-2 border-highlight p-2 text-sm font-semibold text-text duration-300 hover:border-highlight hover:bg-highlight sm:p-[10px] lg:text-base"
               smooth={true}
               duration={400}
             >
-              {internalLink.text}
+              <IconContext.Provider
+                  value={{
+                    className: "text-2xl sm:text-3xl",
+                  }}
+                >
+                  <internalLink.image />
+                  {internalLink.text && (
+                    <p className="ml-2 text-sm font-semibold lg:text-base">
+                        {internalLink.text}
+                    </p>
+                  )}
+                </IconContext.Provider>
             </Link>
+
           )}
 
           {externalLinks &&

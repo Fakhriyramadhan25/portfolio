@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {AiFillBehanceCircle} from 'react-icons/ai';
 import Navbar from "../components/Navbar";
 import Home from "../components/Home";
 import Skills from "../components/Skills";
@@ -60,7 +61,8 @@ export default function Homepage({
         }}
         internalLink={{
           to: "portfolio",
-          text: "Check Portfolio",
+          text: "Portfolio",
+          image:AiFillBehanceCircle
         }}
         externalLinks={[
           {
