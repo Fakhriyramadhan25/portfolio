@@ -18,17 +18,17 @@ export default function About({ title }: { title: ReactNode }) {
             </h2>
           )}
 
-      <div className="grid grid-cols-4 gap-2 mt-8 mx-40 2sm:grid-cols-2 sm:gap-4 md:grid-cols-3 xl:grid-cols-4">
-        <div className="">
-            <img src="face.jpg" className="rounded-full max-w-xs lg:max-x-xs"/>
+      <div className="grid grid-cols-1 gap-2 mt-8 mx-40 2sm:grid-cols-2 sm:gap-4 md:grid-cols-3 xl:grid-cols-4 lg:mx-40 md:mx-20 2sm:mx-8">
+        <div className="col-span-1 2sm:col-span-0">
+            <img src="face.jpg" className="rounded-full max-w-0 xl:max-w-xs"/>
         </div>
-        <div className="col-span-3">
-            <div className="grid grid-cols-5">
+        <div className="col-span-1 lg:col-span-3 2sm:col-span-4">
+            <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
               <div>
                 <div className="w-12 h-12 bg-highlight rounded-full"></div>
               </div>
-              <div className="col-span-4 pe-20">
-                <p className="text-lg text-text text-justify md:text-md sm:text-sm 2sm:text-sm lg:text-lg">
+              <div className="col-span-4 pe-20 2sm:pe-0">
+                <p className="text-lg text-text text-justify md:text-md 2sm:text-md sm:text-md lg:text-lg">
                 Mapping allows me to explore beyond the limitations of my eyes. I am driven to create maps that provide insightful 
                 perspectives in the fields of renewable energy, conservation, public transport, and urban planning. Being involved 
                 in urban designing and planning has been my aspiration since college, and it was gratifying to develop public 
@@ -39,7 +39,7 @@ export default function About({ title }: { title: ReactNode }) {
               </div>
               <div>
               </div>
-              <div className="col-span-4 pe-20 mt-4">
+              <div className="col-span-4 pe-20 mt-4 2sm:pe-0">
                 <hr className="rounded h-1 w-auto bg-gray-200"/>
                 <div className="mt-5 gap-5">
                 <h2 className="inline text-xl font-bold text-text 2sm:text-2xl lg:text-4xl">
