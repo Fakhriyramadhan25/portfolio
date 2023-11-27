@@ -1,6 +1,7 @@
 import Project from "./Project";
 import {AiFillBehanceCircle} from 'react-icons/ai';
 import Writing from "./Writing";
+import { FaGithub } from "react-icons/fa6";
 
 export default function Portfolio() {
   return (<>
@@ -31,6 +32,22 @@ export default function Portfolio() {
             ]}
           >
             The Power Of Location
+          </Project>
+
+          <Project
+            image="spadetrans.png"
+            description="Angkutan Kota Bandung shortest path route selection using leaflet, pgrouting, and geoserver"
+            techStack="React, leaflet, geoserver, postgreSQL"
+            buttons={[
+              {
+                name: "Github",
+                image: FaGithub,
+                link: "Angkutan Kota Bandung routing using leaflet, pgrouting, and geoserver ",
+              },
+
+            ]}
+          >
+            Web-apps: Public Transportation
           </Project>
 
 

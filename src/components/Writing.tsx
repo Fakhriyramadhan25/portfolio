@@ -15,7 +15,23 @@ export default function Writing() {
 
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
-          <Project
+        
+        <Project
+            image="angkotmacet.png"
+            description="Is public transport information access a solution to tackle public transportation crisis in Bandung city?"
+            techStack="React, Leaflet, Geoserver, PostgreSQL"
+            buttons={[
+              {
+                name: "Medium",
+                image: AiFillMediumCircle,
+                link: "https://medium.com/@fakhriyramadhan25/evaluating-bandung-public-transportation-030953b03da5",
+              },
+            ]}
+          >
+            Public Transportation in Bandung City
+          </Project>
+
+        <Project
             image="googleapi.jpg"
             description="Selecting Nearby Restaurants using Google Maps API"
             techStack="Python, geopandas, Google Maps API"
@@ -29,6 +45,7 @@ export default function Writing() {
           >
             Nearby Restaurants Geocoding
           </Project>
+
 
         </div>
       </div>
