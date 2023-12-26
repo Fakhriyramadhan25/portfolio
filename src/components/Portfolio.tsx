@@ -18,6 +18,71 @@ export default function Portfolio() {
 
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
+      
+        <Project
+            image="geodashboard.png"
+            description="Geodashboard with attribute query, drawing, area calculating, coordinate detection, and layer switcher"
+            techStack="Chakra UI, React, OpenLayers, geoserver, postgreSQL"
+            buttons={[
+              {
+                name: "Github",
+                image: FaGithub,
+                link: "https://github.com/Fakhriyramadhan25/OpenLayers-ReactJS",
+              },
+
+            ]}
+          >
+            Smart Cities Geodashboard
+          </Project>
+
+        <Project
+            image="deckglres.png"
+            description="Data Visualization with Deck GL"
+            techStack="React, DeckGL, geoserver, postgreSQL"
+            buttons={[
+              {
+                name: "Github",
+                image: FaGithub,
+                link: "https://github.com/Fakhriyramadhan25/React-deckGL",
+              },
+
+            ]}
+          >
+            Data Visualization with Deck GL
+          </Project>
+
+          <Project
+            image="spadetrans.png"
+            description="Angkutan Kota Bandung shortest path route selection using leaflet, pgrouting, and geoserver"
+            techStack="React, leaflet, geoserver, postgreSQL"
+            buttons={[
+              {
+                name: "Github",
+                image: FaGithub,
+                link: "https://github.com/Fakhriyramadhan25/React-Leaflet-Bandung-Transportations",
+              },
+
+            ]}
+          >
+            Web-apps: Public Transportation
+          </Project>
+
+          <Project
+            image="workoutbuddy.png"
+            description="The web application serves authentication for people who wants to list their workout practice"
+            techStack="Node JS, Express, React, MongoDB"
+            buttons={[
+              {
+                name: "Github",
+                image: FaGithub,
+                link: "https://github.com/Fakhriyramadhan25/React-MongoDB-MERN",
+              },
+
+            ]}
+          >
+            Workout Buddy application
+          </Project>
+
           <Project
             image="powerlocation.png"
             description="The latest portfolio comprises of WebDev, GIS & data analysis, and Community Development"
@@ -32,22 +97,6 @@ export default function Portfolio() {
             ]}
           >
             The Power Of Location
-          </Project>
-
-          <Project
-            image="spadetrans.png"
-            description="Angkutan Kota Bandung shortest path route selection using leaflet, pgrouting, and geoserver"
-            techStack="React, leaflet, geoserver, postgreSQL"
-            buttons={[
-              {
-                name: "Github",
-                image: FaGithub,
-                link: "Angkutan Kota Bandung routing using leaflet, pgrouting, and geoserver ",
-              },
-
-            ]}
-          >
-            Web-apps: Public Transportation
           </Project>
 
 

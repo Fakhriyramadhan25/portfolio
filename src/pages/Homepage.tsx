@@ -54,7 +54,7 @@ export default function Homepage({
         description={null}
         typedInfo={{
           textBefore: "A",
-          strings: ["GIS Developer", "Software Engineer", "Geospatial Data Science"],
+          strings: ["GIS Developer", "Software Engineer"],
           typeSpeed: 80,
           backSpeed: 50,
           backDelay: 2000,
