@@ -2,6 +2,10 @@ import Project from "./Project";
 import {AiFillBehanceCircle} from 'react-icons/ai';
 import Writing from "./Writing";
 import { FaGithub } from "react-icons/fa6";
+import { SiGooglechrome } from "react-icons/si";
+import {AiFillMediumCircle} from "react-icons/ai";
+
+
 
 export default function Portfolio() {
   return (<>
@@ -18,6 +22,68 @@ export default function Portfolio() {
 
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
+        <Project
+            image="mitigation.png"
+            description="Geodashboard for post natural disaster, damages and casualties estimator"
+            techStack="Carto DN, Leaflet, TypeScript, Google Earth Engine"
+            buttons={[
+              {
+                name: "Github",
+                image: FaGithub,
+                link: "https://github.com/Fakhriyramadhan25/React-leaflet-Risk_Calculation",
+              },
+            ]}
+          >
+            Post Natural Disaster
+          </Project>
+
+
+        <Project
+            image="landcover.png"
+            description="Geodashboard visualize Historical Land Cover In Indonesia"
+            techStack="React, Leaflet, Next JS, Google Earth Engine"
+            buttons={[
+              {
+                name: "Github",
+                image: FaGithub,
+                link: "https://github.com/Fakhriyramadhan25/FEE-landcover",
+              },
+            ]}
+          >
+            Land Cover Geodashboard
+          </Project>
+
+          <Project
+            image="birobia.png"
+            description="A government site which provide geospatial data"
+            techStack="AWS, Directus, Next.JS, React JS,"
+            buttons={[
+              {
+                name: "Browse",
+                image: SiGooglechrome,
+                link: "https://birobia.braga.co.id/",
+              },
+
+            ]}
+          >
+            Birobia
+          </Project>
+
+          <Project
+            image="imageryst.png"
+            description="Convert digital scan map to geometry that can be stored to SHP or GeoJSON"
+            techStack="Streamlit, Geopandas, GDAL, Folium, Folium, Shapely"
+            buttons={[
+              {
+                name: "Medium",
+                image: AiFillMediumCircle,
+                link: "https://medium.com/@fakhriyramadhan25/d45223282325",
+              },
+
+            ]}
+          >
+            Web-apps: Image Segmentation
+          </Project>
       
         <Project
             image="geodashboard.png"

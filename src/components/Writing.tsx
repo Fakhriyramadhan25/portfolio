@@ -15,6 +15,36 @@ export default function Writing() {
 
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
+
+        <Project
+            image="3dterrain.jpg"
+            description="3D Terrain & RGB Terrain to visualize the terrain in 2d maps"
+            techStack="RGBT, React, Maplibre"
+            buttons={[
+              {
+                name: "Medium",
+                image: AiFillMediumCircle,
+                link: "https://medium.com/@fakhriyramadhan25/3d-terrain-rgb-terrain-74c65fe5150f",
+              },
+            ]}
+          >
+            Digital Twins: 3D Terrain & RGB Terrain
+          </Project>
+
+        <Project
+            image="3dtwins.png"
+            description="3D tiles building"
+            techStack="Xeokit, React, Cesium, Maplibre"
+            buttons={[
+              {
+                name: "Medium",
+                image: AiFillMediumCircle,
+                link: "https://medium.com/@fakhriyramadhan25/digital-twins-3d-tiles-building-cesium-maplibre-xeokit-deae3942630b",
+              },
+            ]}
+          >
+            Digital Twins: 3D tiles building 
+          </Project>
         
         <Project
             image="angkotmacet.png"
