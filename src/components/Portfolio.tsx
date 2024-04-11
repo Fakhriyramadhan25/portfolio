@@ -23,6 +23,22 @@ export default function Portfolio() {
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
         <Project
+            image="ecomm.png"
+            description="Ongoing Project: Energy Community from RES"
+            techStack="Vercel, Maplibre, DeckGL, React, PostgreSQl, NodeJS"
+            buttons={[
+              {
+                name: "Browse",
+                image: SiGooglechrome,
+                link: "https://energycommunity.vercel.app/",
+              },
+            ]}
+          >
+            Energy Community
+          </Project>
+
+
+        <Project
             image="mitigation.png"
             description="Geodashboard for post natural disaster, damages and casualties estimator"
             techStack="Carto DN, Leaflet, TypeScript, Google Earth Engine"
