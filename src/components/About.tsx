@@ -29,12 +29,11 @@ export default function About({ title }: { title: ReactNode }) {
               </div>
               <div className="col-span-4 pe-20 2sm:pe-0">
                 <p className="text-lg text-text text-justify md:text-md 2sm:text-md sm:text-md lg:text-lg">
-                Mapping allows me to explore beyond the limitations of my eyes. I am driven to create maps that provide insightful 
-                perspectives in the fields of renewable energy, conservation, public transport, and urban planning. Being involved 
-                in urban designing and planning has been my aspiration since college, and it was gratifying to develop public 
-                transportation web apps for "Angkot" in Bandung City. Nevertheless, my passion for nature has enlightened me to 
-                understand the crises in energy, water, and forests. It has been an exciting journey, with 5 years of experience 
-                in the GIS field, including 2 years in web development and 3 years in data analysis.
+                Ever since I worked on my first Geographic Information System (GIS) project, I knew I had found my passion. 
+                This journey led me to a career where I've spent 4 years as a GIS Developer and Software Engineer. 
+                I develop web applications for public transportation, renewable energy, and urban planning. 
+                I find immense satisfaction in designing platforms that transform complex data into accessible insights, 
+                helping users leverage location intelligence for better decision-making.
                 </p>
               </div>
               <div>

@@ -37,6 +37,72 @@ export default function Portfolio() {
             Energy Community
           </Project>
 
+          <Project
+            image="ews.png"
+            description="Early Warning System for the new capital city of Indonesia (IKN)"
+            techStack="AWS, Directus, Nuxt.JS, Vue JS, PostGreSQL"
+            buttons={[
+              {
+                name: "Browse",
+                image: SiGooglechrome,
+                link: "https://ews.geodashboard.io/",
+              },
+
+            ]}
+          >
+            Early Warning System IKN
+          </Project>
+
+          <Project
+            image="pnr.png"
+            description="Quality control and Quality Assurance for PUPR datasets"
+            techStack="AWS, Directus, Next.JS, React JS, PostGreSQL"
+            buttons={[
+              {
+                name: "Browse",
+                image: SiGooglechrome,
+                link: "https://pnr.braga.co.id/login",
+              },
+
+            ]}
+          >
+            PNR PUPR
+          </Project>
+
+          <Project
+            image="igt.png"
+            description="Land parcel purchase application"
+            techStack="AWS, Directus, Next.JS, React JS, PostGreSQL"
+            buttons={[
+              {
+                name: "Browse",
+                image: SiGooglechrome,
+                link: "https://igt2024.braga.co.id/login",
+              },
+
+            ]}
+          >
+            IGT Geoportal
+          </Project>
+
+         
+
+          <Project
+            image="birobia.png"
+            description="A government site which provide geospatial data"
+            techStack="AWS, Directus, Next.JS, React JS,"
+            buttons={[
+              {
+                name: "Browse",
+                image: SiGooglechrome,
+                link: "https://birobia.braga.co.id/",
+              },
+
+            ]}
+          >
+            Birobia
+          </Project>
+
 
         <Project
             image="mitigation.png"
@@ -69,21 +135,6 @@ export default function Portfolio() {
             Land Cover Geodashboard
           </Project>
 
-          <Project
-            image="birobia.png"
-            description="A government site which provide geospatial data"
-            techStack="AWS, Directus, Next.JS, React JS,"
-            buttons={[
-              {
-                name: "Browse",
-                image: SiGooglechrome,
-                link: "https://birobia.braga.co.id/",
-              },
-
-            ]}
-          >
-            Birobia
-          </Project>
 
           <Project
             image="imageryst.png"
@@ -99,6 +150,22 @@ export default function Portfolio() {
             ]}
           >
             Web-apps: Image Segmentation
+          </Project>
+
+          <Project
+            image="spadetrans.png"
+            description="Angkutan Kota Bandung shortest path route selection using leaflet, pgrouting, and geoserver"
+            techStack="React, leaflet, geoserver, postgreSQL"
+            buttons={[
+              {
+                name: "Github",
+                image: FaGithub,
+                link: "https://github.com/Fakhriyramadhan25/React-Leaflet-Bandung-Transportations",
+              },
+
+            ]}
+          >
+            Web-apps: Public Transportation
           </Project>
       
         <Project
@@ -117,7 +184,7 @@ export default function Portfolio() {
             Smart Cities Geodashboard
           </Project>
 
-        <Project
+        {/* <Project
             image="deckglres.png"
             description="Data Visualization with Deck GL"
             techStack="React, DeckGL, geoserver, postgreSQL"
@@ -131,25 +198,11 @@ export default function Portfolio() {
             ]}
           >
             Data Visualization with Deck GL
-          </Project>
+          </Project> */}
 
-          <Project
-            image="spadetrans.png"
-            description="Angkutan Kota Bandung shortest path route selection using leaflet, pgrouting, and geoserver"
-            techStack="React, leaflet, geoserver, postgreSQL"
-            buttons={[
-              {
-                name: "Github",
-                image: FaGithub,
-                link: "https://github.com/Fakhriyramadhan25/React-Leaflet-Bandung-Transportations",
-              },
+         
 
-            ]}
-          >
-            Web-apps: Public Transportation
-          </Project>
-
-          <Project
+          {/* <Project
             image="workoutbuddy.png"
             description="The web application serves authentication for people who wants to list their workout practice"
             techStack="Node JS, Express, React, MongoDB"
@@ -163,7 +216,7 @@ export default function Portfolio() {
             ]}
           >
             Workout Buddy application
-          </Project>
+          </Project> */}
 
           <Project
             image="powerlocation.png"
