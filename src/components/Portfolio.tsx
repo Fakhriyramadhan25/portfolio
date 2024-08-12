@@ -85,6 +85,22 @@ export default function Portfolio() {
             IGT Geoportal
           </Project>
 
+          <Project
+            image="rbb.png"
+            description="Landing page for shrimp company in Indonesia"
+            techStack="Vercel, Next.JS, React JS, Directus"
+            buttons={[
+              {
+                name: "Browse",
+                image: SiGooglechrome,
+                link: "https://rbbiotech.vercel.app/",
+              },
+
+            ]}
+          >
+            Shrimp Company Profile
+          </Project>
+
          
 
           <Project
@@ -95,7 +111,7 @@ export default function Portfolio() {
               {
                 name: "Browse",
                 image: SiGooglechrome,
-                link: "https://birobia.braga.co.id/",
+                link: "https://birobia.jabarprov.go.id",
               },
 
             ]}
