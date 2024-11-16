@@ -50,7 +50,7 @@ export default function Portfolio() {
               },
             ]}
           >
-            Energy Community version 2
+            Digital Twin of Nusatara City
         </Project>
 
         <Project
