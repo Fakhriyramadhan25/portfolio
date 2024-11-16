@@ -22,10 +22,41 @@ export default function Portfolio() {
 
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
+
+        <Project
+            image="energycommunity2.png"
+            description="Ongoing Project: Energy Community from RES"
+            techStack="Vercel, Maplibre, Next JS, PostgreSQl, NodeJS, Zustand"
+            buttons={[
+              {
+                name: "Browse",
+                image: SiGooglechrome,
+                link: "https://energytransition.vercel.app/",
+              },
+            ]}
+          >
+            Energy Community version 2
+        </Project>
+
+        <Project
+            image="cim.png"
+            description="Digital twin of Nusantara the capital city of Indonesia"
+            techStack="Vue 3, Nuxt JS, PostgreSQL, Alibaba Cloud, AWS, Maplibre GL, Deck GL, Cesium JS"
+            buttons={[
+              {
+                name: "Browse",
+                image: SiGooglechrome,
+                link: "",
+              },
+            ]}
+          >
+            Energy Community version 2
+        </Project>
+
         <Project
             image="ecomm.png"
-            description="Ongoing Project: Energy Community from RES"
-            techStack="Vercel, Maplibre, DeckGL, React, PostgreSQl, NodeJS"
+            description="Energy Community from RES"
+            techStack="Vercel, Maplibre, ArcGIS, React, PostgreSQl, NodeJS, redux"
             buttons={[
               {
                 name: "Browse",
