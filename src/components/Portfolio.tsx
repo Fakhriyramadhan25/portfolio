@@ -22,7 +22,29 @@ export default function Portfolio() {
 
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
-
+        <Project
+            image="ewsgi.png"
+            description="Early warning system for monitoring the Gunung Ibu activity"
+            techStack="AWS, Directus, vue 3, nuxt.js , PostGreSQL"
+            buttons={[
+              {
+                name: "Browse",
+                image: SiGooglechrome,
+                link: "https://gunungibu.geodashboard.io/gunung/ibu/",
+              },
+            ]}
+          >
+            Early Warning System Gunung Ibu
+          </Project>
+          <Project
+            image="spainecom.png"
+            description="Helping province government of spain deciding to install the Solar PV"
+            techStack="GCP, Docker, Svelte kit, Google Maps API"
+            buttons={[
+            ]}
+          >
+            Spain Renewable Energy
+          </Project>
         <Project
             image="energycommunity2.png"
             description="Ongoing Project: Energy Community from RES"
@@ -37,6 +59,16 @@ export default function Portfolio() {
           >
             Energy Community version 2
         </Project>
+
+        <Project
+            image="miningem.png"
+            description="Manage mining project site and resource"
+            techStack="GCS, Docker, Vue 3, Directus, Nuxt js"
+            buttons={[
+            ]}
+          >
+            Mining Management
+          </Project>
 
         <Project
             image="cim.png"
@@ -94,7 +126,6 @@ export default function Portfolio() {
                 image: SiGooglechrome,
                 link: "https://pnr.braga.co.id/login",
               },
-
             ]}
           >
             PNR PUPR
@@ -188,11 +219,11 @@ export default function Portfolio() {
             description="Convert digital scan map to geometry that can be stored to SHP or GeoJSON"
             techStack="Streamlit, Geopandas, GDAL, Folium, Folium, Shapely"
             buttons={[
-              {
-                name: "Medium",
-                image: AiFillMediumCircle,
-                link: "https://medium.com/@fakhriyramadhan25/d45223282325",
-              },
+              // {
+              //   name: "Medium",
+              //   image: AiFillMediumCircle,
+              //   link: "https://medium.com/@fakhriyramadhan25/d45223282325",
+              // },
 
             ]}
           >
