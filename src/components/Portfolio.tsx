@@ -3,7 +3,7 @@ import {AiFillBehanceCircle} from 'react-icons/ai';
 import Writing from "./Writing";
 import { FaGithub } from "react-icons/fa6";
 import { SiGooglechrome } from "react-icons/si";
-import {AiFillMediumCircle} from "react-icons/ai";
+// import {AiFillMediumCircle} from "react-icons/ai";
 
 
 
