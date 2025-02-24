@@ -78,7 +78,7 @@ export default function Portfolio() {
               {
                 name: "Browse",
                 image: SiGooglechrome,
-                link: "",
+                link: "https://cim.pu.go.id/",
               },
             ]}
           >
