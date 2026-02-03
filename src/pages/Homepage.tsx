@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import {AiFillBehanceCircle} from 'react-icons/ai';
+import { AiFillBehanceCircle } from "react-icons/ai";
 import Navbar from "../components/Navbar";
 import Home from "../components/Home";
-import Skills from "../components/Skills";
 import Portfolio from "../components/Portfolio";
+import Writing from "../components/Writing";
 import Footer from "../components/Footer";
 import About from "../components/About";
 
@@ -46,7 +46,7 @@ export default function Homepage({
         }}
         logoPath="./spade.png"
         logoTitle=""
-        menu={["Home","About", "Portfolio", "Skills"]}
+        menu={["Home", "About", "Portfolio", "Writing"]}
       />
       <Home
         h2Title="Hi! I am"
@@ -62,7 +62,7 @@ export default function Homepage({
         internalLink={{
           to: "portfolio",
           text: "Portfolio",
-          image:AiFillBehanceCircle
+          image: AiFillBehanceCircle,
         }}
         externalLinks={[
           {
@@ -77,6 +77,7 @@ export default function Homepage({
           },
         ]}
       />
+
       <About
         title={
           <>
@@ -84,9 +85,10 @@ export default function Homepage({
           </>
         }
       />
+
       <Portfolio />
-      <Skills />
-      
+
+      <Writing />
 
       <Footer />
     </>
